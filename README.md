@@ -16,9 +16,9 @@
 
 - 导包
 
-  单独导包：grass.py文件都复制到你的服务器某个目录下依次运行pip3 install websockets  、pip3 install websockets_proxy、pip3 install Faker
+  单独导包：grass.py文件都复制到你的服务器某个目录下依次运行pip3 install websockets  、pip3 install websockets_proxy、pip3 install Faker 、pip3 install async_timeout
 
-  批量导包：把 requirements.txt文件、grass.py文件都复制到你的服务器某个目录下，pip install -r requirements.txt
+  批量导包：把 requirements.txt文件、grass.py文件都复制到你的服务器某个目录下，pip3 install -r requirements.txt
 
 - 将main方法参数换成你的
 
@@ -39,6 +39,8 @@
   如果不用代理不用动，如果使用代理就use_proxy设置为True，然后在下面addr和port填写的代理ip和密码
 
   如果代理有用户名密码下面接着填。没有就把username和password删了即可
+  
+  然后运行：python3 grass.py即可
 
   如何配置多号？
 

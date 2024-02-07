@@ -1,14 +1,14 @@
 import asyncio
-import time
 import json
-import ssl
-import uuid
-import random
 import logging
-from websockets_proxy import Proxy, proxy_connect
-from faker import Faker
-import websockets
+import random
+import ssl
+import time
+import uuid
 
+import websockets
+from faker import Faker
+from websockets_proxy import Proxy, proxy_connect
 
 # 配置日志级别
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
